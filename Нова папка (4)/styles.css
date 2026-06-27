@@ -1,0 +1,21 @@
+/* Обнулення відступів для гарного вигляду */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Обов'язкові стилі для карти */
+#map {
+    width: 100%;
+    height: 500px; /* Висота обов'язкова! */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
